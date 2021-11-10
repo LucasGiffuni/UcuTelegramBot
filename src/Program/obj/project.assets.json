@@ -5040,11 +5040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Documents\\git\\PII_TelegramBot_Demo\\src\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Documents\\git\\UcuTelegramBot\\src\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\lucas\\Documents\\git\\PII_TelegramBot_Demo\\src\\Program\\Program.csproj",
+      "projectPath": "C:\\Users\\lucas\\Documents\\git\\UcuTelegramBot\\src\\Program\\Program.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Documents\\git\\PII_TelegramBot_Demo\\src\\Program\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Documents\\git\\UcuTelegramBot\\src\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"

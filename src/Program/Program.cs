@@ -38,10 +38,11 @@ namespace Ucu.Poo.TelegramBot
             Bot = new TelegramBotClient(Token);
 
             firstHandler =
+                new MenuHandler(
                 new RegisterHandler(
                 new HelloHandler(
                 new PhotoHandler(Bot, null)
-            ), persons);
+            ), persons), persons);
 
             var cts = new CancellationTokenSource();
 

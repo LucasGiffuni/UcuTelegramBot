@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vbzUU6fDmIIVKMpDmSeFXfn4mBdp9Dc261pWpP+uC38/gqS2Kl7MbG8obfRWpILkRKRC5Xwx7mBPXd6brr9b3g==",
+  "dgSpecHash": "HUHiOWYi6z0I90NbkMdlKB3Q+OMd1uIXIXKVqNjwvGrCk7x7pVwVIfk2iibIje9dhFRNlJk8hQwyoYhNG+yxfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Documents\\git\\PII_TelegramBot_Demo\\src\\Program\\Program.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Documents\\git\\UcuTelegramBot\\src\\Program\\Program.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
