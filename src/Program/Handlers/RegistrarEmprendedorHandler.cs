@@ -1,21 +1,21 @@
 using Telegram.Bot.Types;
 using System;
 using System.Collections.Generic;
-using Ucu.Poo.model;
+using PII_E13.model;
 
-namespace Ucu.Poo.TelegramBot
+namespace PII_E13.Handlers
 {
 
 
-    public class RegisterHandler : BaseHandler
+    public class RegistrarEmprendedorHandler : BaseHandler
     {
 
 
         private new List<Person> Persons;
-        public RegisterHandler(BaseHandler next, List<Person> persons) : base(next)
+        public RegistrarEmprendedorHandler(BaseHandler next, List<Person> persons) : base(next)
         {
             this.Persons = persons;
-            this.Keywords = new string[] { "register" };
+            this.Keywords = new string[] { "registrar emprendedor" };
         }
 
 
@@ -24,7 +24,7 @@ namespace Ucu.Poo.TelegramBot
 
             if (this.CanHandle(message))
             {
-                Person p1 = new Person(message.From.Id, message.From.FirstName, message.From.LastName, "Rol 1");
+                Person p1 = new Person(message.From.Id, message.From.FirstName, "Emprendedor");
 
                 if (Persons.Exists(x => x.Name == p1.Name) == false) //El ususario que se intenta registrar no existe en la lsita
                 {

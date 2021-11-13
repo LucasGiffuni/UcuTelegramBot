@@ -1,7 +1,7 @@
 using Telegram.Bot.Types;
-using Ucu.Poo.model;
+using PII_E13.model;
 
-namespace Ucu.Poo.TelegramBot
+namespace PII_E13.Handlers
 {
     /// <summary>
     /// Un "handler" del patrón Chain of Responsibility que implementa el comando "hola".

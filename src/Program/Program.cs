@@ -7,9 +7,9 @@ using Telegram.Bot;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 
-using Ucu.Poo.model;
+using PII_E13.model;
 
-namespace Ucu.Poo.TelegramBot
+namespace PII_E13.Handlers
 {
     /// <summary>
     /// Un programa que implementa un bot de Telegram.
@@ -38,11 +38,13 @@ namespace Ucu.Poo.TelegramBot
             Bot = new TelegramBotClient(Token);
 
             firstHandler =
+                new RegistrarEmpresaHandler(
+                new RegistrarEmprendedorHandler(
                 new MenuHandler(
                 new RegisterHandler(
                 new HelloHandler(
                 new PhotoHandler(Bot, null)
-            ), persons), persons);
+            ), persons), persons), persons), persons);
 
             var cts = new CancellationTokenSource();
 

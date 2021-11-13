@@ -2,9 +2,9 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using Telegram.Bot.Types;
-using Ucu.Poo.model;
+using PII_E13.model;
 
-namespace Ucu.Poo.TelegramBot
+namespace PII_E13.Handlers
 {
     /// <summary>
     /// Clase base para implementar el patrón Chain of Responsibility. En ese patrón se pasa un mensaje a través de una
